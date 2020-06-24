@@ -1,0 +1,56 @@
+<header class="section scrollspy" id="home"> 
+        
+    <nav id="nav">
+        <div class="logo">
+            <a href="#home"><img src="/assets/images/logo.png"></a>
+        </div>
+        <ul>
+            <li>
+                <a href="#home" class="menu-item active" id="link0">Home</a>
+            </li>
+            <li>
+                <a href="#about-me-section" class="menu-item" id="link1">About</a>
+            </li>
+            <li>
+                <a href="#skills-section" class="menu-item" id="link2">Skills</a>
+            </li>
+            <li>
+                <a href="#education-section" class="menu-item" id="link3">Education</a>
+            </li>
+            <li>
+                <a href="#contact-section" class="menu-item" id="link4">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <script src="/assets/js/simple-scrollspy.min.js"></script>
+    
+    <script>
+        window.onload = function () {
+            scrollSpy('#nav', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 100
+            })
+        }
+    </script>
+
+    <div id="particles-js">
+        <script type="text/javascript" src="/assets/js/particles.js"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
+    </div>
+
+    <div class="title-wrap">
+        <h1 id="title">Brian Hu</h1>
+    </div>
+    
+    <div class="scroll-wrap">
+        <h3 class="prompt">Scroll to Discover</h3>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+</header>

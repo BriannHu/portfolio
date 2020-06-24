@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">  
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <script src="https://kit.fontawesome.com/61f44ad046.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(window).on('scroll', function(){
+      if($(window).scrollTop()){
+         $('nav').addClass('black');
+      }
+      else {
+         $('nav').removeClass('black');
+      }
+    })
+  </script>
+</head>
+<body>
+<header class="section scrollspy" id="home"> 
+        
+    <nav id="nav">
+        <div class="logo">
+            <a href="#home"><img src="/assets/images/logo.png"></a>
+        </div>
+        <ul>
+            <li>
+                <a href="#home" class="menu-item active" id="link0">Home</a>
+            </li>
+            <li>
+                <a href="#about-me-section" class="menu-item" id="link1">About</a>
+            </li>
+            <li>
+                <a href="#skills-section" class="menu-item" id="link2">Skills</a>
+            </li>
+            <li>
+                <a href="#education-section" class="menu-item" id="link3">Education</a>
+            </li>
+            <li>
+                <a href="#contact-section" class="menu-item" id="link4">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <script src="/assets/js/simple-scrollspy.min.js"></script>
+    
+    <script>
+        window.onload = function () {
+            scrollSpy('#nav', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 100
+            })
+        }
+    </script>
+
+    <div id="particles-js">
+        <script type="text/javascript" src="/assets/js/particles.js"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
+    </div>
+
+    <div class="title-wrap">
+        <h1 id="title">Brian Hu</h1>
+    </div>
+    
+    <div class="scroll-wrap">
+        <h3 class="prompt">Scroll to Discover</h3>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+</header>
+
+<section class="section scrollspy" id="about-me-section">
+
+    <h2 id="about-me">About Me</h2>
+
+    <div class="imgs-container">
+        
+        <div class="imgs-slide"></div>
+
+    </div>
+
+    <div class="description-1">
+        <p class="paragraph">
+            <b class="b-a">Hi there!</b> My name is <b class="b-a">Brian Hu</b> and I'm currently a second-year student at 
+            <b class="b-a">McGill University</b> pursuing a BSc. Honours <b class="b-a">Computer Science</b> with a minor in 
+            <b class="b-a">Statistics</b>.
+            <br></br>
+            In my academic work and personal experience, I've learned <b class="b-a">Python, Java, C++, HTML, CSS and 
+            JavaScript</b>. I've used frameworks such as <b class="b-a">Flask and Django</b>, database systems such as
+            <b class="b-a">MySQL and PostgreSQL</b>, and <b class="b-a">Git</b> for version control.
+            <br></br>
+            Given the opportunity, I participate in <b class="b-a">hackathons</b> to improve my programming skills and develop
+            cool projects! I also do <b class="b-a">online tutoring</b> on the fundamentals of computer science, as I believe sharing
+            knowledge is as important as learning itself. When I'm not programming, I go for a run or a swim
+            to <b class="b-a">destress</b>. I enjoy working out and maintaining a <b class="b-a">healthy balance</b> between
+            an academic and a social lifestyle!
+        </p>
+    </div>
+
+    
+    <div class="icon-collage">
+        
+        <i class="fas fa-chart-bar fa-2x" id="graph"><span><span></span></span></i>
+        <i class="fas fa-map-marker-alt fa-2x" id="list"><span><span></span></span></i>
+        <a class="btn" href="/assets/pdfs/BrianHu_resume.pdf" target="_blank"><span>View Resume</span></a>
+        <i class="fas fa-compass fa-2x" id="compass"><span><span></span></span></i>
+        <i class="fas fa-laptop-code fa-2x" id="link"><span><span></span></span></i>
+
+    </div>
+
+
+    <script src="/assets/js/about/image.js"></script>
+
+</section>
+
+<section class="section scrollspy" id="skills-section">
+
+    <h2 id="skills">Skills</h2>
+
+    <div class="description-2">
+        <p>
+            I've picked up on many <b class="b-s">programming languages</b> as well as  
+            <b class="b-s">tools and technologies</b> throughout the years, from both academic and personal
+            experience:
+        </p>
+    </div>
+
+    <div id="wrapper-1" class="wrapper">
+
+        <div id="skills-list-1" class="list">
+            <h3 id="header-1" class="header">Programming Languages</h3>
+            <li>
+                <span class="bar"><span class="lang1">Python</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="lang2">Java</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="lang3">HTML/CSS</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="lang4">JavaScript</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="lang5">C/C++</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="lang6">Swift</span></span>
+            </li>
+        </div>
+
+        <div id="skills-list-2" class="list">
+            <h3 id="header-2" class="header">Tools & Technologies</h3>
+            <li>
+                <span class="bar"><span class="tool1">Flask</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="tool2">Eclipse</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="tool3">Linux</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="tool4">MySQL</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="tool5">XCode</span></span>
+            </li>
+
+            <li>
+                <span class="bar"><span class="tool6">Unity</span></span>
+            </li>
+        </div>
+
+    </div>
+    
+    <div class="description2-2">
+        <p>
+            In my free time, I have several <b class="b-s">areas of interest</b>. These are topics
+            in which I've either already done or hope to do more programming and
+            research about in the future:
+        </p>
+    </div>
+
+
+    <div id="wrapper-2" class="wrapper">
+        
+        <div id="skills-list-3" class="list">
+            <h3 id="header-3" class="header">Areas of Interest</h3>
+            <li>
+                <span class="bar"><span class="area1">Web Development</span></span>
+            </li>
+    
+            <li>
+                <span class="bar"><span class="area2">Machine Learning</span></span>
+            </li>
+        </div>
+
+        <div id="skills-list-4" class="list">
+            <li id="topitem-4">
+                <span class="bar"><span class="area3">Data Visualization</span></span>
+            </li>
+    
+            <li>
+                <span class="bar"><span class="area4">App Development</span></span>
+            </li>
+        </div>
+    </div>
+    
+
+    <script src="/assets/js/scroll-out.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: '.lang1,.lang2,.lang3,.lang4,.lang5,.lang6, \
+                      .tool1,.tool2,.tool3,.tool4,.tool5,.tool6, \
+                      .area1,.area2,.area3,.area4'
+
+        })
+    </script>
+
+</section>
+<section class="section scrollspy" id="education-section">
+
+    <h2 id="education">Education</h2>
+
+    <div class="description-2">
+        <p>
+            I completed the IB diploma at Colonel By Secondary School from 2015
+            to 2019. I am now enrolled at McGill University with the following 
+            classes listed per semester. <b class="b-e">For more information, click on a class 
+            to access its official McGill page:</b>
+        </p>
+    </div>
+
+    <div class="timeline">
+        <ul>
+            <li>
+                <div class="content">
+                    <h3 class="winter">McGill Winter Semester 2</h3>
+                    <p id="content1">
+                        <b>The following are my classes for the Winter 2021 Semester:</b>
+                        <dl class="class-list">
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/comp-252" target="_blank" class="class-link" tabindex="1"><em>Honours Algorithms & Data Structures</em>&nbsp&nbsp-&nbsp&nbsp<b>COMP252</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/comp-303" target="_blank" class="class-link" tabindex="2"><em>Software Design</em>&nbsp&nbsp-&nbsp&nbsp<b>COMP303</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/comp-322" target="_blank" class="class-link" tabindex="3"><em>Introduction to C++</em>&nbsp&nbsp-&nbsp&nbsp<b>COMP323</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/math-308" target="_blank" class="class-link" tabindex="4"><em>Fundamentals of Stat. Learning</em>&nbsp&nbsp-&nbsp&nbsp<b>MATH308</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/math-323" target="_blank" class="class-link" tabindex="5"><em>Probability</em>&nbsp&nbsp-&nbsp&nbsp<b>MATH323</b></a></dt>
+                        </dl>
+                    </p>
+                </div>
+                <div class="time" id="time1">
+                    <h4>January 2021</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3 class="fall">McGill Fall Semester 2</h3>
+                    <p>
+                        <b>The following are my classes for the Fall 2020 Semester:</b>
+                        <dl class="class-list">
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/comp-273" target="_blank" class="class-link" tabindex="1"><b>COMP273</b>&nbsp&nbsp-&nbsp&nbsp<em>Intro to Computer Systems</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/comp-302" target="_blank" class="class-link" tabindex="2"><b>COMP302</b>&nbsp&nbsp-&nbsp&nbsp<em>Programming Language & Paradigms</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/math-203" target="_blank" class="class-link" tabindex="3"><b>MATH203</b>&nbsp&nbsp-&nbsp&nbsp<em>Principles of Statistics</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/math-208" target="_blank" class="class-link" tabindex="4"><b>MATH208</b>&nbsp&nbsp-&nbsp&nbsp<em>Intro to Statistical Computing</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2020-2021/courses/math-223" target="_blank" class="class-link" tabindex="5"><b>MATH223</b>&nbsp&nbsp-&nbsp&nbsp<em>Linear Algebra</em></a></dt>
+                        </dl>
+                    </p>
+                </div>
+                <div class="time" id="time2">
+                    <h4>September 2020</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3 class="summer">McGill Summer Semester</h3>
+                    <p>
+                        <b>The following was my class for the Summer 2020 Semester:</b>
+                        <dl class="class-list">
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/math-222" target="_blank" class="class-link" tabindex="1"><em>Calculus 3</em>&nbsp&nbsp-&nbsp&nbsp<b>MATH222</b></a></dt>
+                        </dl>  
+                    </p>
+                </div>
+                <div class="time" id="time3">
+                    <h4>May 2020</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3 class="content-title">McGill Winter Semester 1</h3>
+                    <p>
+                        <b>The following were my classes for the Winter 2020 Semester:</b>
+                        <dl class="class-list">
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/comp-189" target="_blank" class="class-link" tabindex="1"><b>COMP189</b>&nbsp&nbsp-&nbsp&nbsp<em>Computers and Society</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/comp-206" target="_blank" class="class-link" tabindex="2"><b>COMP206</b>&nbsp&nbsp-&nbsp&nbsp<em>Intro to Software Systems</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/comp-250" target="_blank" class="class-link" tabindex="3"><b>COMP250</b>&nbsp&nbsp-&nbsp&nbsp<em>Intro to Computer Science</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/math-141" target="_blank" class="class-link" tabindex="4"><b>MATH141</b>&nbsp&nbsp-&nbsp&nbsp<em>Calculus 2</em></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/math-240" target="_blank" class="class-link" tabindex="5"><b>MATH240</b>&nbsp&nbsp-&nbsp&nbsp<em>Discrete Structures</em></a></dt>
+                        </dl>
+                    </p>
+                </div>
+                <div class="time" id="time4">
+                    <h4>January 2020</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3 class="content-title">McGill Fall Semester 1</h3>
+                    <p>
+                        <b>The following were my classes for the Fall 2019 Semester:</b>
+                        <dl class="class-list">
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/comp-202" target="_blank" class="class-link" tabindex="1"><em>Foundations of Programming</em>&nbsp&nbsp-&nbsp&nbsp<b>COMP202</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/econ-225" target="_blank" class="class-link" tabindex="2"><em>Economics of the Environment</em>&nbsp&nbsp-&nbsp&nbsp<b>ECON225</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/math-133" target="_blank" class="class-link" tabindex="3"><em>Linear Algebra and Geometry</em>&nbsp&nbsp-&nbsp&nbsp<b>MATH133</b></a></dt>
+                            <dt><a href="https://www.mcgill.ca/study/2019-2020/courses/math-141" target="_blank" class="class-link" tabindex="4"><em>Calculus 1</em>&nbsp&nbsp-&nbsp&nbsp<b>MATH141</b></a></dt>
+                        </dl>
+                    </p>
+                </div>
+                <div class="time" id="time5">
+                    <h4>September 2019</h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3 class="content-title">Colonel By Secondary School</h3>
+                    <p>
+                        <b>The following were the IB courses I completed for my IB diploma:</b>
+                        <dl class="class-list">
+                            <dt><b>Group 1</b>&nbsp&nbsp-&nbsp&nbsp<em>Higher Level English</em></dt>
+                            <dt><b>Group 2</b>&nbsp&nbsp-&nbsp&nbsp<em>Standard Level French</em></dt>
+                            <dt><b>Group 3</b>&nbsp&nbsp-&nbsp&nbsp<em>Standard Level Information Technology</em></dt>
+                            <dt><b>Group 4</b>&nbsp&nbsp-&nbsp&nbsp<em>Higher Level Physics</em></dt>
+                            <dt><b>Group 5</b>&nbsp&nbsp-&nbsp&nbsp<em>Standard Level Math</em></dt>
+                            <dt><b>Group 6</b>&nbsp&nbsp-&nbsp&nbsp<em>Higher Level Chemistry</em></dt>
+                        </dl>
+                    </p>
+                </div>
+                <div class="time" id="time6">
+                    <h4>2015&nbsp&#8212&nbsp2019</h4>
+                </div>
+            </li>
+            <div style="clear: both"></div>
+        </ul>
+    </div>
+
+</section>
+
+<section class="section scrollspy" id="contact-section">
+
+    <h2 id="contact">Contact</h2>
+
+    <div class="description-2">
+        <p>
+            This is my first website using vanilla HTML/CSS/JS, with Jekyll as the
+            static site generator and hosting done by Github Pages. <b class="b-c">Feel free to give any feedback 
+            or add me on other platforms!</b>
+        </p>
+    </div>
+
+    <form action="https://formspree.io/xgenzvrd" method="POST">
+
+        <fieldset class="contact-info-group">
+
+            <label>
+                <span>
+                    <span><input type="text" id="name-input" name="name" placeholder="Name*" required></span>
+                </span>
+            </label>
+
+            <label>
+                <span>
+                    <span><input type="email" id="email-input" name="_replyto" placeholder="Email*" required></span>
+                </span>
+            </label>
+
+            <label>
+                <span>
+                    <span><input type="subject" id="subject-input" name="_subject" placeholder="Subject"></span>
+                </span>
+            </label>
+
+            <span><span><textarea name="message" id="message-input" placeholder="Message"></textarea></span></span>
+        
+
+        </fieldset>
+
+        <fieldset class="submit-wrap">
+            <span class="submit-span" id="reset-span"><input type="reset" id="reset-button" value="Clear"></span>
+            <span class="submit-span" id="send-span"><input type="submit" id="send-button" value="Send"></span>
+        </fieldset>
+
+    </form>
+
+    <div class="social-menu">
+        <ul>
+            <li>
+                <span class="icon-span" id="email"><a href="mailto:brian.hu@mail.mcgill.ca"><i class="fa fa-envelope"></i></a></span>
+            </li>
+            <li>
+                <span class="icon-span" id="facebook"><a href="https://www.facebook.com/brianhu.mcgill" target="_blank"><i class="fa fa-facebook"></i></a></span>
+            </li>
+            <li>
+                <span class="icon-span" id="instagram"><a href="https://www.instagram.com/briann.hu" target="_blank"><i class="fa fa-instagram"></i></a></span>
+            </li>
+            <li>
+                <span class="icon-span" id="linkedin"><a href="https://www.linkedin.com/in/briannhu" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+            </li>
+            <li>
+                <span class="icon-span" id="github"><a href="https://github.com/Brainy505" target="_blank"><i class="fa fa-github"></i></a></span>
+            </li>
+        </ul>  
+
+    </div>
+
+</section>
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+</body>
+</html>

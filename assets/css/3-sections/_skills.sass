@@ -1,0 +1,318 @@
+#skills-section
+    list-style: none
+    background: #3498DB
+    width: 100%
+
+#skills
+    margin: 0 auto
+    text-align: center
+    background: -webkit-linear-gradient(#ff512f, #dd2476)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    padding: 35px 0 20px
+    width: 300px
+
+#skills::before
+    content: "before"
+    background: linear-gradient(#ff512f, #dd2476)
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
+#skills::after
+    content: "after"
+    background: linear-gradient(#ff512f, #dd2476)
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
+.b-s //bold-skills
+    background: -webkit-linear-gradient(#ff512f, #dd2476)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.header
+    color: black
+    position: relative
+    margin-top: 0
+    margin-bottom: -20px
+    padding-top: 0
+
+.description-2
+    max-width: 900px
+    margin: 0 auto
+    margin-bottom: 0
+    font:
+        size: 18px
+    text-align: justify
+
+.description2-2
+    position: relative
+    max-width: 900px
+    margin: 0 auto
+    margin-bottom: 0
+    font:
+        size: 18px
+    text-align: justify
+    
+.header
+    top: 0
+    left: -30px
+
+
+.wrapper
+    max-width: 1000px
+    margin: 0 auto
+    position: relative
+    padding-top: 0
+    align-text: center
+
+#skills-list-1, #skills-list-3
+    top: 0
+    left: 0
+
+#skills-list-2, #skills-list-4
+    position: absolute
+    top: 0
+    right: 0
+
+#topitem-4
+    margin-top: 50.6px
+
+@media screen and (max-width: 1100px)
+
+    .description-2
+        max-width: 900px
+        margin-left: 40px
+        margin-right: 40px
+        font:
+            size: 18px
+        text-align: justify
+
+    .description2-2
+        max-width: 900px
+        margin-left: 40px
+        margin-right: 40px
+        font:
+            size: 18px
+        text-align: justify
+
+    .header
+        left: 0
+        
+    .wrapper
+        max-width: 1000px
+        margin: 0 auto
+        position: relative
+        text-align: center
+
+    #skills-list-2, #skills-list-4
+        position: relative
+
+    #topitem-4
+        margin-top: 0
+
+.list
+    width: 450px
+    display: inline-block
+
+    li
+        margin: 35px 0
+
+    .bar
+        background: black
+        display: block
+        height: 35px
+        border: 1px solid rgba(0,0,0,0.3)
+        border-radius: 4px
+        overflow: hidden
+        text-decoration: none
+        text-transform: uppercase
+        font-size: 18px
+        font-weight: 600
+        letter-spacing: 1px
+        padding: 1px
+
+    .bar span
+        height: 35px
+        float: left
+        background-image: linear-gradient(to right, rgba(255, 81, 47, 0.9), rgba(221, 36, 118, 0.7))
+        border-radius: 4px
+        display: flex
+        padding: 0 15px
+        line-height: 35px
+        color: white
+
+
+// displays
+
+.lang1[data-scroll="in"]
+    width: 85%
+    animation: python 2s
+    margin-top: 0
+
+.lang2[data-scroll="in"]
+    width: 85%
+    animation: java 2s
+
+.lang3[data-scroll="in"]
+    width: 70%
+    animation: htmlcss 2s
+
+.lang4[data-scroll="in"]
+    width: 65%
+    animation: javascript 2s
+
+.lang5[data-scroll="in"]
+    width: 55%
+    animation: cpp 2s
+
+.lang6[data-scroll="in"]
+    width: 50%
+    animation: swift 2s
+
+.tool1[data-scroll="in"]
+    width: 80%
+    animation: flask 2s
+
+.tool2[data-scroll="in"]
+    width: 80%
+    animation: eclipse 2s
+
+.tool3[data-scroll="in"]
+    width: 65%
+    animation: linux 2s
+
+.tool4[data-scroll="in"]
+    width: 50%
+    animation: mysql 2s
+
+.tool5[data-scroll="in"]
+    width: 50%
+    animation: xcode 2s
+
+.tool6[data-scroll="in"]
+    width: 45%
+    animation: unity 2s
+
+.area1[data-scroll="in"]
+    width: 85%
+    animation: web 2s
+
+.area2[data-scroll="in"]
+    width: 80%
+    animation: ml 2s
+
+.area3[data-scroll="in"]
+    width: 60%
+    animation: dv 2s
+
+.area4[data-scroll="in"]
+    width: 60%
+    animation: app 2s
+
+// animations
+
+@keyframes python
+    0%
+        width: 0%
+    100%
+        width: 85%
+
+@keyframes java
+    0%
+        width: 0%
+    100%
+        width: 85%
+
+@keyframes htmlcss
+    0%
+        width: 0%
+    100%
+        width: 70%
+
+@keyframes javascript
+    0%
+        width: 0%
+    100%
+        width: 65%
+
+@keyframes cpp
+    0%
+        width: 0%
+    100%
+        width: 55%
+
+@keyframes swift
+    0%
+        width: 0%
+    100%
+        width: 50%
+
+@keyframes flask
+    0%
+        width: 0%
+    100%
+        width: 80%
+
+@keyframes eclipse
+    0%
+        width: 0%
+    100%
+        width: 80%
+
+@keyframes linux
+    0%
+        width: 0%
+    100%
+        width: 65%
+
+@keyframes mysql
+    0%
+        width: 0%
+    100%
+        width: 50%
+    
+@keyframes xcode
+    0%
+        width: 0%
+    100%
+        width: 50%
+
+@keyframes unity
+    0%
+        width: 0%
+    100%
+        width: 45%
+
+@keyframes web
+    0%
+        width: 0%
+    100%
+        width: 85%
+
+@keyframes ml
+    0%
+        width: 0%
+    100%
+        width: 80%
+
+@keyframes dv
+    0%
+        width: 0%
+    100%
+        width: 60%
+
+@keyframes app
+    0%
+        width: 0%
+    100%
+        width: 60%
+
+@media screen and (max-width: 500px)
+    .list
+        width: 200px
+
+

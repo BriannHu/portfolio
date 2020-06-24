@@ -1,0 +1,213 @@
+#contact-section
+    background: #F39C12
+
+#contact
+    margin: 0 auto
+    text-align: center
+    background: -webkit-linear-gradient(#4568dc, #b06ab3)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    padding: 35px 0 20px
+    width: 300px
+
+#contact::before
+    content: "before"
+    background: -webkit-linear-gradient(#4568dc, #b06ab3)
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
+#contact::after
+    content: "after"
+    background: -webkit-linear-gradient(#4568dc, #b06ab3)
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
+.b-c
+    background: -webkit-linear-gradient(#4568dc, #b06ab3)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+fieldset
+    border: none
+
+form
+    max-width: 600px
+    margin: 0 auto 100px
+    padding: 0 20px
+
+    span
+        padding: 2px
+        display: flex
+        width: 100%
+
+    span span
+        background-image: linear-gradient(to right, #4568dc 0%, #b06ab3 100%)
+        margin-bottom: 10px
+
+    input, textarea
+        border: none
+        width: 100%
+        box-sizing: border-box
+        padding: 10px
+        -webkit-appearance: none //used by firefox
+        -moz-appearance: none   //used by Safari/Chrome
+        appearance: none
+        font-size: 18px
+
+    textarea
+        height: 10em
+        resize: none
+
+    .submit-wrap
+        position: relative
+
+        .submit-span
+            background-image: linear-gradient(to right, #4568dc 0%, #b06ab3 100%)
+            color: #b06ab3
+            box-sizing: border-box
+            display: block
+            height: 70px
+            letter-spacing: 1px
+            margin: 0 auto
+            padding: 2px
+            height: 50px
+            width: 46%
+            position: absolute
+
+        #send-span
+            right: 7px
+
+        #reset-span
+            left: 10px
+
+        .submit-span:hover
+            color: white
+
+        .submit-span #send-button, .submit-span #reset-button
+            text-transform: uppercase
+            align-items: center
+            background: #FAD7A0
+            justify-content: center
+            height: 100%
+            width: 100%
+            font-size: 18px
+            transition: background .5s ease
+
+        .submit-span:hover #send-button, .submit-span:hover #reset-button
+            background: transparent
+
+.social-menu
+    padding-bottom: 100px
+
+.social-menu ul
+    margin: 0 auto 
+    max-width: 900px
+    display: flex
+    text-align: center
+    padding: 0
+
+.social-menu ul li
+    list-style: none
+    margin: 0 auto
+
+.social-menu ul li .fa
+    font-size: 30px
+    line-height: 60px
+    transition: 0.5s
+    color: #000
+
+.icon-span
+    display: block
+    padding: 2px
+    width: 60px
+    height: 60px
+    background-image: linear-gradient(#4568dc 0%, #b06ab3 100%)
+    border-radius: 50%
+    letter-spacing: 1px
+    align-text: center
+    margin: 0 auto 
+    transition: 0.5s
+    box-shadow: 0 5px 4px rgba(69, 104, 220, 0.8)
+
+// after displays
+.icon-span::after
+    font-size: 18px
+    position: absolute
+    width: 60px
+    margin-top: 10px
+    opacity: 0
+    transition: 0.5s
+
+#email::after
+    content: "Email"
+    margin-left: -30px
+
+#facebook::after
+    content: "Facebook"
+    margin-left: -42px
+
+#instagram::after
+    content: "Instagram"
+    margin-left: -45px
+
+#linkedin::after
+    content: "LinkedIn"
+    margin-left: -35px
+
+#github::after
+    content: "GitHub"
+    margin-left: -32px
+
+//after hover displays
+.icon-span:hover::after
+    opacity: 1
+
+#email:hover::after
+    color: #dd4b39
+
+#facebook:hover::after
+    color: #3b5999
+
+#instagram:hover::after
+    color: #e4405f
+
+#linkedin:hover::after
+    color: #0077B5
+
+#github:hover::after
+    color: #00c300
+
+.icon-span a
+    display: block
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    background-color: white
+    text-align: center
+    transition: 0.5s
+
+.social-menu ul li .fa:hover
+    color: #fff
+
+.icon-span:hover
+    background: white
+    transform: translate(0, -10px)
+
+.social-menu ul li:nth-child(1) a:hover
+    background-color: #dd4b39
+
+.social-menu ul li:nth-child(2) a:hover
+    background-color: #3b5999
+
+.social-menu ul li:nth-child(3) a:hover
+    background-color: #e4405f
+
+.social-menu ul li:nth-child(4) a:hover
+    background-color: #0077B5
+
+.social-menu ul li:nth-child(5) a:hover
+    background-color: #00c300

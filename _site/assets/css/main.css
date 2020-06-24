@@ -237,7 +237,7 @@ header {
     height: 80px;
     transition: 0.5s; }
   header nav .logo img:hover {
-    content: url("../images/purple_logo.png"); }
+    content: url(../images/purple_logo.png); }
   header nav.black {
     background: rgba(0, 0, 0, 0.7);
     transform: scale(1.1); }
@@ -381,6 +381,8 @@ body {
   background: -webkit-linear-gradient(#c33764, #1d2671);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transform: none !important;
+  -webkit-transition: !important;
   padding: 35px 0 20px;
   width: 300px; }
 
@@ -538,6 +540,8 @@ body {
   background: -webkit-linear-gradient(#ff512f, #dd2476);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transform: none !important;
+  -webkit-transition: !important;
   padding: 35px 0 20px;
   width: 300px; }
 
@@ -835,6 +839,8 @@ body {
   background: -webkit-linear-gradient(#7b4397, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transform: none !important;
+  -webkit-transition: !important;
   padding: 35px 0 20px;
   width: 300px; }
 
@@ -1020,6 +1026,8 @@ a[tabindex]:visited {
   background: -webkit-linear-gradient(#4568dc, #b06ab3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-transform: none !important;
+  -webkit-transition: !important;
   padding: 35px 0 20px;
   width: 300px; }
 

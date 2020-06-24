@@ -209,4 +209,162 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+* {
+  font-family: 'Montserrat'; }
+
+html, body {
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 100%;
+  background: url(../images/night.jpg);
+  background-size: cover; }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 3; }
+  header nav .logo {
+    float: left; }
+  header nav .logo img {
+    display: none;
+    height: 80px;
+    transition: 0.5s; }
+  header nav.black {
+    background: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1); }
+  header nav.black .logo img {
+    display: block; }
+  header nav.black ul li a {
+    display: block;
+    font-weight: bold; }
+  header nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex; }
+  header nav ul li {
+    list-style: none; }
+  header nav ul li a {
+    line-height: 70px;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300; }
+  header .title-wrap {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    height: 100px;
+    text-align: center; }
+  header #title {
+    display: inline-block;
+    font-size: 124px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+    margin: auto;
+    opacity: 0.9; }
+  header .prompt {
+    font-weight: 300;
+    color: white;
+    bottom: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+    animation: animate 1.5s linear infinite; }
+  header .scroll-wrap {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    height: 80px; }
+  header .scroll-down {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    z-index: 1; }
+  header .scroll-down span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    animation: animate 1.5s linear infinite;
+    opacity: 0; }
+  header .scroll-down span:nth-child(1) {
+    transform: translate(-15px, -15px); }
+  header .scroll-down span:nth-child(2) {
+    transform: translate(0, 0); }
+  header .scroll-down span:nth-child(3) {
+    transform: translate(15px, 15px); }
+
+#link0 {
+  display: none; }
+
+#link1.active, #link1:hover {
+  background: -webkit-linear-gradient(#c33764, #1d2671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#link2.active, #link2:hover {
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#link3.active, #link3:hover {
+  background: -webkit-linear-gradient(#7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#link4.active, #link4:hover {
+  background: -webkit-linear-gradient(#4568dc, #b06ab3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2; }
+
+@keyframes animate {
+  0% {
+    top: -10px;
+    left: -10px;
+    opacity: 0; }
+  50% {
+    top: 0px;
+    left: 0px;
+    opacity: 1; }
+  100% {
+    top: 10px;
+    left: 10px;
+    opacity: 0; } }
+
+@media screen and (max-width: 1300px) {
+  header nav .logo {
+    display: none; }
+  header nav.black {
+    display: none; }
+  header #title {
+    font-size: 96px; } }
+
+@media screen and (max-width: 500px) {
+  header nav {
+    display: none; } }
+
 /*# sourceMappingURL=main.css.map */

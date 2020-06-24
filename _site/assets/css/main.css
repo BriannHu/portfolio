@@ -210,7 +210,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 * {
-  font-family: Montserrat; }
+  font-family: 'Montserrat'; }
 
 html, body {
   height: 100%; }
@@ -590,8 +590,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  padding-top: 0;
-  align-text: center; }
+  padding-top: 0; }
 
 #skills-list-1, #skills-list-3 {
   top: 0;
@@ -1136,7 +1135,6 @@ form {
   background-image: linear-gradient(#4568dc 0%, #b06ab3 100%);
   border-radius: 50%;
   letter-spacing: 1px;
-  align-text: center;
   margin: 0 auto;
   transition: 0.5s;
   box-shadow: 0 5px 4px rgba(69, 104, 220, 0.8); }

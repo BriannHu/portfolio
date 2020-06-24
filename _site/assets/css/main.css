@@ -236,6 +236,8 @@ header {
     display: none;
     height: 80px;
     transition: 0.5s; }
+  header nav .logo img:hover {
+    content: url("../images/purple_logo.png"); }
   header nav.black {
     background: rgba(0, 0, 0, 0.7);
     transform: scale(1.1); }

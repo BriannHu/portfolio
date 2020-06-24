@@ -1,5 +1,4 @@
 # Build settings
-baseurl: "website_v4"
 
 markdown: kramdown
 permalink: pretty

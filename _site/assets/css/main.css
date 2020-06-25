@@ -537,10 +537,11 @@ body {
 #skills {
   margin: 0 auto;
   text-align: center;
-  background: -webkit-linear-gradient(#ff512f, #dd2476);
+  background-image: -moz-linear-gradient(#ff512f, #dd2476);
+  background-image: -webkit-linear-gradient(#ff512f, #dd2476);
+  background-image: linear-gradient(#ff512f, #dd2476);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(#ff512f, #dd2476);
   display: block;
   padding: 35px 0 20px;
   width: 300px; }

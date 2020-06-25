@@ -394,7 +394,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent; }
+  text-fill-color: transparent;
+  display: inline-block; }
 
 .description-1 {
   max-width: 900px;

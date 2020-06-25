@@ -417,9 +417,13 @@ body {
   margin-bottom: 10px; }
 
 .b-a {
-  background: -webkit-linear-gradient(#c33764, #1d2671);
+  background: linear-gradient(#c33764, #1d2671);
+  background-image: -webkit-linear-gradient(#c33764, #1d2671);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  display: inline-block; }
 
 .icon-collage {
   max-width: 900px;
@@ -539,7 +543,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent; }
+  text-fill-color: transparent;
+  display: inline-block; }
 
 .header {
   color: black;
@@ -827,7 +832,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent; }
+  text-fill-color: transparent;
+  display: inline-block; }
 
 .timeline {
   position: relative;
@@ -1003,7 +1009,8 @@ a[tabindex]:visited {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent; }
+  text-fill-color: transparent;
+  display: inline-block; }
 
 fieldset {
   border: none; }

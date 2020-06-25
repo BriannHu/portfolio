@@ -378,29 +378,15 @@ body {
 #about-me {
   margin: 0 auto;
   text-align: center;
-  background: -webkit-linear-gradient(#c33764, #1d2671);
+  background: linear-gradient(#c33764, #1d2671);
+  background-image: -webkit-linear-gradient(#c33764, #1d2671);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(#c33764, #1d2671);
+  text-fill-color: transparent;
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
-
-#about-me::before {
-  content: "before";
-  background: linear-gradient(#c33764, #1d2671);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#about-me::after {
-  content: "after";
-  background: linear-gradient(#c33764, #1d2671);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
 
 .description-1 {
   max-width: 900px;
@@ -538,8 +524,7 @@ body {
   margin: 0 auto;
   text-align: center;
   background: linear-gradient(#ff512f, #dd2476);
-  background: -webkit-linear-gradient(#ff512f, #dd2476);
-  background-size: cover;
+  background-image: -webkit-linear-gradient(#ff512f, #dd2476);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -547,22 +532,6 @@ body {
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
-
-#skills::before {
-  content: "before";
-  background: linear-gradient(#ff512f, #dd2476);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#skills::after {
-  content: "after";
-  background: linear-gradient(#ff512f, #dd2476);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
 
 .b-s {
   background: linear-gradient(#ff512f, #dd2476);
@@ -851,24 +820,6 @@ body {
   padding: 35px 0 20px;
   width: 300px; }
 
-#education::before {
-  content: "before";
-  background: linear-gradient(#7b4397, #dc2430);
-  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#education::after {
-  content: "after";
-  background: linear-gradient(#7b4397, #dc2430);
-  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
 .b-e {
   background: linear-gradient(#7b4397, #dc2430);
   background: -webkit-linear-gradient(#7b4397, #dc2430);
@@ -1036,29 +987,15 @@ a[tabindex]:visited {
 #contact {
   margin: 0 auto;
   text-align: center;
-  background: -webkit-linear-gradient(#4568dc, #b06ab3);
+  background: linear-gradient(#4568dc, #b06ab3);
+  background-image: -webkit-linear-gradient(#4568dc, #b06ab3);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(#4568dc, #b06ab3);
+  text-fill-color: transparent;
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
-
-#contact::before {
-  content: "before";
-  background: -webkit-linear-gradient(#4568dc, #b06ab3);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#contact::after {
-  content: "after";
-  background: -webkit-linear-gradient(#4568dc, #b06ab3);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
 
 .b-c {
   background: -webkit-linear-gradient(#4568dc, #b06ab3);

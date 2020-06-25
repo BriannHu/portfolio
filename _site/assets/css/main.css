@@ -856,6 +856,24 @@ body {
   padding: 35px 0 20px;
   width: 300px; }
 
+#education::before {
+  content: "before";
+  background: linear-gradient(#7b4397, #dc2430);
+  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
+  font-size: 2px;
+  display: block;
+  color: black;
+  width: 100%; }
+
+#education::after {
+  content: "after";
+  background: linear-gradient(#7b4397, #dc2430);
+  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
+  font-size: 2px;
+  display: block;
+  color: black;
+  width: 100%; }
+
 .b-e {
   background: linear-gradient(#7b4397, #dc2430);
   background-image: -webkit-linear-gradient(#7b4397, #dc2430);
@@ -1031,6 +1049,22 @@ a[tabindex]:visited {
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
+
+#contact::before {
+  content: "before";
+  background: -webkit-linear-gradient(#4568dc, #b06ab3);
+  font-size: 2px;
+  display: block;
+  color: black;
+  width: 100%; }
+
+#contact::after {
+  content: "after";
+  background: -webkit-linear-gradient(#4568dc, #b06ab3);
+  font-size: 2px;
+  display: block;
+  color: black;
+  width: 100%; }
 
 .b-c {
   background: linear-gradient(#4568dc, #b06ab3);

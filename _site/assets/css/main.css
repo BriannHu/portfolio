@@ -1072,6 +1072,7 @@ form {
   height: 100%;
   width: 100%;
   font-size: 18px;
+  font-weight: 500;
   transition: background .5s ease; }
 
 .submit-span:hover #send-button, .submit-span:hover #reset-button {
@@ -1123,19 +1124,19 @@ form {
 
 #facebook::after {
   content: "Facebook";
-  margin-left: -42px; }
+  margin-left: -48px; }
 
 #instagram::after {
   content: "Instagram";
-  margin-left: -45px; }
+  margin-left: -50px; }
 
 #linkedin::after {
   content: "LinkedIn";
-  margin-left: -35px; }
+  margin-left: -42px; }
 
 #github::after {
   content: "GitHub";
-  margin-left: -32px; }
+  margin-left: -37px; }
 
 .icon-span:hover::after {
   opacity: 1; }

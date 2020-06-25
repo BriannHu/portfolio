@@ -16,12 +16,29 @@
     padding: 35px 0 20px
     width: 300px
 
+#skills::before
+    content: "before"
+    background: linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
+#skills::after
+    content: "after"
+    background: linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
+    font-size: 2px
+    display: block
+    color: black
+    width: 100%
+
 .b-s
     background: linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
-    background-size: cover
+    background-image: -webkit-linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
     -webkit-background-clip: text
     background-clip: text
     -webkit-text-fill-color: transparent
+    text-fill-color: transparent
 
 .header
     color: black

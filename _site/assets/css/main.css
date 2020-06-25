@@ -388,22 +388,6 @@ body {
   padding: 35px 0 20px;
   width: 300px; }
 
-#about-me::before {
-  content: "before";
-  background: linear-gradient(#c33764, #1d2671);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#about-me::after {
-  content: "after";
-  background: linear-gradient(#c33764, #1d2671);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
 .description-1 {
   max-width: 900px;
   margin: 30px auto 0;
@@ -433,12 +417,9 @@ body {
   margin-bottom: 10px; }
 
 .b-a {
-  background: linear-gradient(#c33764, #1d2671);
-  background-image: -webkit-linear-gradient(#c33764, #1d2671);
+  background: -webkit-linear-gradient(#c33764, #1d2671);
   -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent; }
 
 .icon-collage {
   max-width: 900px;
@@ -551,22 +532,6 @@ body {
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
-
-#skills::before {
-  content: "before";
-  background: linear-gradient(#ff512f, #dd2476);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#skills::after {
-  content: "after";
-  background: linear-gradient(#ff512f, #dd2476);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
 
 .b-s {
   background: linear-gradient(#ff512f, #dd2476);
@@ -856,24 +821,6 @@ body {
   padding: 35px 0 20px;
   width: 300px; }
 
-#education::before {
-  content: "before";
-  background: linear-gradient(#7b4397, #dc2430);
-  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#education::after {
-  content: "after";
-  background: linear-gradient(#7b4397, #dc2430);
-  background-image: -webkit-linear-gradient(#7b4397, #dc2430);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
 .b-e {
   background: linear-gradient(#7b4397, #dc2430);
   background-image: -webkit-linear-gradient(#7b4397, #dc2430);
@@ -1049,22 +996,6 @@ a[tabindex]:visited {
   display: block;
   padding: 35px 0 20px;
   width: 300px; }
-
-#contact::before {
-  content: "before";
-  background: -webkit-linear-gradient(#4568dc, #b06ab3);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
-
-#contact::after {
-  content: "after";
-  background: -webkit-linear-gradient(#4568dc, #b06ab3);
-  font-size: 2px;
-  display: block;
-  color: black;
-  width: 100%; }
 
 .b-c {
   background: linear-gradient(#4568dc, #b06ab3);

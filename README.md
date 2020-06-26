@@ -4,7 +4,6 @@ This is my portfolio website created with Jekyll static site generator and hoste
 
 This is my first time using HTML/CSS/Javascript, so most animations and styles are simple and found via tutorials online.
 ## How you can install/use Jekyll:
----
 1. Install ruby on your computer if you don't already have it.
 2. Install Jekyll and bundler gems: <br>
    &nbsp;&nbsp;&nbsp;&nbsp;`gem install jekyll bundler`
@@ -20,7 +19,6 @@ This is my first time using HTML/CSS/Javascript, so most animations and styles a
 **For more detailed documentation, visit: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)**
 
 ## Helpful links:
----
 * [How to Build a Responsive Website](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 * [Particles.js effect](https://www.youtube.com/watch?v=QMIUs43npxQ)
 * [Fontawesome icons](https://fontawesome.com/)

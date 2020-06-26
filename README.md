@@ -20,7 +20,7 @@ This is my first time using HTML/CSS/Javascript, so most animations and styles a
 
 ## Helpful links:
 * [How to Build a Responsive Website](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
-* [Particles.js effect](https://www.youtube.com/watch?v=QMIUs43npxQ)
+* [Particles.js effect](https://vincentgarreau.com/particles.js/)
 * [Fontawesome icons](https://fontawesome.com/)
 * [Simple ScrollSpy](https://github.com/kimyvgy/simple-scrollspy)
 * [Hosting on Github Pages](https://www.youtube.com/watch?v=fqFjuX4VZmU&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=19)

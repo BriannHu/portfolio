@@ -1,73 +1,30 @@
-Personal website created with Jekyll static site generator and hosted by GitHub Pages.
+# Personal Portfolio
 
-This is my first time using HTML/CSS/Javascript, so most animations and styles are simple
-and found via tutorials on Youtube.
+This is my portfolio website created with Jekyll static site generator and hosted by GitHub Pages.
 
+This is my first time using HTML/CSS/Javascript, so most animations and styles are simple and found via tutorials online.
+## How you can install/use Jekyll:
+---
+1. Install ruby on your computer if you don't already have it.
+2. Install Jekyll and bundler gems: <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;`gem install jekyll bundler`
+3. Create a new Jekyll site titled 'myblog': <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;`jekyll new myblog`
+4. Change into your new directory: <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;`cd myblog`
+5. Build the site and make it available on a local server. <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;`bundle exec jekyll serve`
+6. Browse to [http://localhost:4000](http://localhost:4000)
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**For more detailed documentation, visit: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)**
 
-#about-me::before
-    content: "before"
-    background: linear-gradient(#c33764, #1d2671)
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#about-me::after
-    content: "after"
-    background: linear-gradient(#c33764, #1d2671)
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-    
-#skills::before
-    content: "before"
-    background: linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#skills::after
-    content: "after"
-    background: linear-gradient(rgba(255, 81, 47, 1), rgba(221, 36, 118, 1))
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#education::before
-    content: "before"
-    background: linear-gradient(rgba(123, 67, 151, 1), rgba(220, 36, 48, 1))
-    background-image: -webkit-linear-gradient(rgba(123, 67, 151, 1), rgba(220, 36, 48, 1))
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#education::after
-    content: "after"
-    background: linear-gradient(rgba(123, 67, 151, 1), rgba(220, 36, 48, 1))
-    background-image: -webkit-linear-gradient(rgba(123, 67, 151, 1), rgba(220, 36, 48, 1))
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#contact::before
-    content: "before"
-    background: -webkit-linear-gradient(#4568dc, #b06ab3)
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
-#contact::after
-    content: "after"
-    background: -webkit-linear-gradient(#4568dc, #b06ab3)
-    font-size: 2px
-    display: block
-    color: black
-    width: 100%
-
+## Helpful links:
+---
+* [How to Build a Responsive Website](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
+* [Particles.js effect](https://www.youtube.com/watch?v=QMIUs43npxQ)
+* [Fontawesome icons](https://fontawesome.com/)
+* [Simple ScrollSpy](https://github.com/kimyvgy/simple-scrollspy)
+* [Hosting on Github Pages](https://www.youtube.com/watch?v=fqFjuX4VZmU&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=19)
+  
+  

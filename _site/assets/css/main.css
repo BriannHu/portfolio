@@ -321,6 +321,10 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+#link1.active ::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #c33764, #1d2671);
+  border-radius: 3px; }
+
 #link2.active, #link2:hover {
   background: -webkit-linear-gradient(#ff512f, #dd2476);
   -webkit-background-clip: text;
@@ -342,6 +346,9 @@ header {
   height: 100%;
   background: transparent;
   z-index: 2; }
+
+::-webkit-scrollbar {
+  width: 0; }
 
 @keyframes animate {
   0% {

@@ -70,3 +70,4 @@ and found via tutorials on Youtube.
     display: block
     color: black
     width: 100%
+

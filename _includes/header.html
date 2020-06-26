@@ -1,5 +1,4 @@
-<header class="section scrollspy" id="home"> 
-        
+<header class="section scrollspy" id="home">         
     <nav id="nav">
         <div class="logo">
             <a href="#home"><img src="assets/images/logo.png"></a>
@@ -22,17 +21,6 @@
             </li>
         </ul>
     </nav>
-    <script src="assets/js/header/simple-scrollspy.min.js"></script>
-    
-    <script>
-        window.onload = function () {
-            scrollSpy('#nav', {
-                sectionClass: '.scrollspy',
-                menuActiveTarget: '.menu-item',
-                offset: 100
-            })
-        }
-    </script>
 
     <div id="particles-js">
         <script type="text/javascript" src="assets/js/particles/particles.js"></script>
@@ -52,4 +40,16 @@
         </div>
     </div>
 
+    <script>
+        window.onload = function () {
+            scrollSpy('#nav', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 100
+            })
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="assets/js/header/simple-scrollspy.min.js"></script>
 </header>
